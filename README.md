@@ -76,8 +76,6 @@ I explored different aspects of Dubai's rental market through 27 questions.
 
 ## Project Visualisations & Analysis
 
-I used Matplotlib and Seaborn to create charts that make the results easier to understand and compare.
-
 ### 1. Bathroom-wise Average Rent
 
 ![Bathroom-wise Average Rent](visualizations/baths_wise_average_rent.png)
