@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # DATASET LOAD
-df=pd.read_csv("dubai.csv")
+df=pd.read_csv("UAE.csv")
 print(df.head())
 print(df.tail())
 print(df.isnull().sum())
