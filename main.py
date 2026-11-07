@@ -152,17 +152,20 @@ largest_area_location=df.groupby("LOCATION")["AREA IN SQFT"].max().idxmax()
 print(f"THE LOCATION WITH THE LARGEST INDIVIDUAL AREA IN SQFT IS: {largest_area_location}")
 
 
-# QUESTION NO.15 LOCATION WISE AVERAGE AREA IN SQFT
+# QUESTION NO.15 SMALLEST LOCATION WISE AVERAGE AREA IN SQFT
 
 smallest_area_location=df.groupby("LOCATION")["AREA IN SQFT"].mean().sort_values(ascending=True).head(5)
 print(f"THE LOCATIONS WITH THE SMALLEST AVERAGE AREA IN SQFT ARE:\n{smallest_area_location}")
+
+
+# QUESTION NO.16 LARGEST LOCATION WISE AVERAGE AREA IN SQFT
 
 largest_area_location=df.groupby("LOCATION")["AREA IN SQFT"].mean().sort_values(ascending=False).head(5)
 print(f"THE LOCATIONS WITH THE LARGEST AVERAGE AREA IN SQFT ARE:\n{largest_area_location}")
 
 
 
-# QUESTION NO.16  BEDROOM-WISE AVERAGE RENT ANALYSIS BY RENT CATEGORY
+# QUESTION NO.17  BEDROOM-WISE AVERAGE RENT ANALYSIS BY RENT CATEGORY
 
 plt.style.use("ggplot")
 plt.figure(figsize=(10,4))
@@ -173,7 +176,7 @@ plt.title("BAR PLOT:BEDROOM WISE AVERAGE RENT BY RENT CATEGORY")
 plt.savefig("bedroom_wise_average_rent.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.17 CITY WISE AVERAGE RENT ANALYSIS  BY RENT CATEGORY
+# QUESTION NO.18 CITY WISE AVERAGE RENT ANALYSIS  BY RENT CATEGORY
 plt.style.use("ggplot")
 plt.figure(figsize=(10,4))
 sns.barplot(x="CITY",y="RENT",hue="RENT CATEGORY",data=df)
@@ -183,7 +186,7 @@ plt.title("BAR PLOT:CITY WISE AVERAGE RENT BY RENT CATEGORY")
 plt.savefig("city_wise_average_rent.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.18 BATHS-WISE AVERAGE RENT ANALYSIS BY FURNISHING CATEGORY
+# QUESTION NO.19  BATHS-WISE AVERAGE RENT ANALYSIS BY FURNISHING CATEGORY
 
 plt.style.use("bmh")
 plt.figure(figsize=(10,4))
@@ -195,7 +198,7 @@ plt.savefig("baths_wise_average_rent.png", bbox_inches="tight")
 plt.show()
 
 
-# QUESTION NO.19 CREATE A CORRELATION HEATMAP TO ANALYSE THE RELATIONSHIP
+# QUESTION NO.20 CREATE A CORRELATION HEATMAP TO ANALYSE THE RELATIONSHIP
 
 corr=df[["BEDS","BATHS","AREA IN SQFT","RENT","RENT PER SQFT"]].corr()
 
@@ -205,7 +208,7 @@ plt.title("HEAT MAP:DUBAI PROPERTY CORRELATION HEATMAP")
 plt.savefig("correlation_heatmap.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.20 CITY WISE AREA IN  SQFT BY FURNISHING CATEGORY
+# QUESTION NO.21 CITY WISE AREA IN  SQFT BY FURNISHING CATEGORY
 
 
 plt.style.use("ggplot")
@@ -217,7 +220,7 @@ plt.title("BAR PLOT:CITY WISE AVERAGE AREA IN SQFT BY FURNISHING")
 plt.savefig("city_wise_area_by_furnishing.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.21 CITY WISE AVERAGE RENT PER SQFT BY RENT CATEGORY
+# QUESTION NO.22 CITY WISE AVERAGE RENT PER SQFT BY RENT CATEGORY
 
 plt.style.use("ggplot")
 plt.figure(figsize=(10,4))
@@ -228,27 +231,19 @@ plt.title("BAR PLOT:CITY WISE AVERAGE RENT PER SQFT BY RENT CATEGORY")
 plt.savefig("city_wise_rent_per_sqft_by_rent_category.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.22 CITY-WISE PROPERTY TYPE COUNT
+# QUESTION NO.23 CITY-WISE PROPERTY TYPE COUNT
 
 plt.style.use("bmh")
 plt.figure(figsize=(8,4))
+plt.xticks(rotation=45, ha='right',fontsize=10)
 sns.countplot(x="CITY", hue="TYPE", data=df)
 plt.xlabel("CITY")
 plt.ylabel("PROPERTY COUNT")
 plt.title("COUNT PLOT:CITY-WISE PROPERTY TYPE COUNT")
+plt.tight_layout()
 plt.savefig("city_wise_property_type_count.png", bbox_inches="tight")
 plt.show()
 
-# QUESTION NO.23 PROPERTY TYPE LISTING  VS AVERAGE RENT BY CITY CATEGORY
-
-plt.style.use("ggplot")
-plt.figure(figsize=(10,5))
-sns.barplot(x="TYPE",y="RENT" ,hue="CITY",data=df)
-plt.xlabel("PROPERTY TYPE")
-plt.ylabel("AVERAGE RENT")
-plt.title("BARPLOT:PROPERTY TYPE VS AVERAGE RENT BY CITY CATEGORY")
-plt.savefig("property_type_wise_average_rent.png", bbox_inches="tight")
-plt.show()
 
 # QUESTION NO.24  CITY VS RENT BY FURNISHING CATEGORY
 
