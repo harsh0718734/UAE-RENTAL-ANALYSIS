@@ -82,52 +82,51 @@ I explored different aspects of the UAE rental property market through 27 analyt
 
 ### 1. Bathroom-wise Average Rent
 
-![Bathroom-wise Average Rent](visualizations/baths_wise_average_rent.png)
+![Bathroom-wise Average Rent](visualisation/baths_wise_average_rent.png)
 
 This chart compares average rental prices based on the number of bathrooms. It helps understand how rental prices vary with bathroom availability.
 
 ### 2. Bedroom-wise Average Rent
 
-![Bedroom-wise Average Rent](visualizations/bedroom_wise_average_rent.png)
+![Bedroom-wise Average Rent](visualisation/bedroom_wise_average_rent.png)
 
 This visualisation shows average rental prices based on the number of bedrooms and different rent categories.
 
 ### 3. City-wise Area by Furnishing
 
-![City-wise Area by Furnishing](visualizations/city_wise_area_by_furnishing.png)
+![City-wise Area by Furnishing](visualisation/city_wise_area_by_furnishing.png)
 
 This chart compares average property areas across cities based on furnishing status. It helps examine differences in property sizes between furnished and unfurnished listings.
 
 ### 4. City-wise Average Rent
 
-![City-wise Average Rent](visualizations/city_wise_average_rent.png)
+![City-wise Average Rent](visualisation/city_wise_average_rent.png)
 
 This chart compares average rental prices across cities and helps identify differences in rental costs between locations.
 
 ### 5. City-wise Property Type Count
 
-![City-wise Property Type Count](visualizations/city_wise_property_type_count.png)
+![City-wise Property Type Count](visualisation/city_wise_property_type_count.png)
 
-This visualisation shows the distribution of different property types across cities. It helps understand which property types appear more frequently in the dataset.
+This visualisation shows the distribution of different property types across cities with optimized axis margins. It helps understand which property types appear more frequently in the dataset.
 
 ### 6. City-wise Rent by Furnishing
 
-![City-wise Rent by Furnishing](visualizations/city_wise_rent_by_furnishing.png)
+![City-wise Rent by Furnishing](visualisation/city_wise_rent_by_furnishing.png)
 
 This chart compares average rental prices across cities according to furnishing status. It helps explore how furnishing is associated with rental prices.
 
 ### 7. City-wise Rent per Sqft by Rent Category
 
-![City-wise Rent per Sqft by Rent Category](visualizations/city_wise_rent_per_sqft_by_rent_category.png)
+![City-wise Rent per Sqft by Rent Category](visualisation/city_wise_rent_per_sqft_by_rent_category.png)
 
 This visualisation compares average rent per square foot across cities and rent categories, providing another perspective on rental price differences.
 
 ### 8. Correlation Heatmap
 
-![Correlation Heatmap](visualizations/correlation_heatmap.png)
+![Correlation Heatmap](visualisation/correlation_heatmap.png)
 
 The correlation heatmap displays relationships between numerical variables such as bedrooms, bathrooms, property area, rent and rent per square foot. It helps identify positive and negative correlations between these variables.
-
 
 ## Key Learnings
 
