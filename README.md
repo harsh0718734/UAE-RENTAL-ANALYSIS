@@ -94,7 +94,7 @@ This visualisation shows average rental prices based on the number of bedrooms a
 
 ### 3. City-wise Area by Furnishing
 
-![City-wise Area by Furnishing](visualisation/city_wise_area_by_furnishing.png)
+![City-wise Area by Furnishing](visualizations/city_wise_area_by_furnishing.png)
 
 This chart compares average property areas across cities based on furnishing status. It helps examine differences in property sizes between furnished and unfurnished listings.
 
