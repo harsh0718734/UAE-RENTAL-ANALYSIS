@@ -41,39 +41,42 @@ I explored different aspects of the UAE rental property market through 27 analyt
 
 ### 1. Rental Price Analysis
 
-1. Compared average rental prices across cities and identified the highest and lowest.
-2. Analysed average rent across different property types.
-3. Compared average rental prices across different locations.
-4. Identified cities with the minimum and maximum individual rent per square foot.
-5. Compared average rent per square foot across cities.
-6. Identified property types with the minimum and maximum individual rent per square foot.
-7. Analysed average rent per square foot across property types.
-8. Identified locations with the minimum and maximum individual rent per square foot.
-9. Compared average rent per square foot across locations.
+1. Compared average rental prices across cities to identify the top cheapest and most expensive hubs.
+2. Analysed average rent across different property types to evaluate building segment values.
+3. Compared average rental prices across different macro locations to isolate high-value sectors.
+4. Identified cities with the minimum and maximum individual rent per square foot listings.
+5. Compared average rent per square foot parameters across major cities.
+6. Identified property types commanding the minimum and maximum individual rent per square foot values.
+7. Analysed average rent per square foot performance across property types.
+8. Identified specific locations with the minimum and maximum individual rent per square foot entries.
+9. Compared average rent per square foot layouts across municipal locations.
 
 ### 2. Property Area Analysis
 
-10. Identified cities with the smallest and largest individual property areas.
-11. Compared average property areas across cities.
-12. Identified property types with the smallest and largest individual property areas.
-13. Analysed average property areas across property types.
-14. Identified locations with the smallest and largest individual property areas.
-15. Compared average property areas across locations.
+10. Identified cities hosting the smallest and largest individual property areas in SqFt.
+11. Compared average property area dimensions across different cities.
+12. Identified property types featuring the smallest and largest individual property areas in SqFt.
+13. Analysed average property areas across structural property types.
+14. Identified locations with the smallest and largest individual property areas in SqFt.
 
-### 3. Property Features & Market Trends
+### 3. Location-wise Property Dimension Spreads
 
-16. Analysed average rent based on bedrooms and rent categories.
-17. Compared city-wise average rent across rent categories.
-18. Studied bathroom-wise average rent based on furnishing status.
-19. Created a correlation heatmap for numerical variables.
-20. Compared average property area across cities based on furnishing status.
-21. Analysed city-wise average rent per square foot across rent categories.
-22. Examined property type counts across different cities.
-23. Compared average rent by property type across cities.
-24. Analysed city-wise average rent based on furnishing status.
-25. Identified the top 5 most expensive cities based on average rent.
-26. Identified the top 5 cheapest building types based on average rent.
-27. Identified the top 5 most expensive locations based on average rent.
+15. Isolated the dataset to rank the top 5 locations commanding the absolute smallest average property areas in SqFt.
+16. Evaluated macro parameters to rank the top 5 locations hosting the largest average property areas in SqFt.
+
+### 4. Property Features & Market Trends
+
+17. Analysed average rent based on bedroom counts grouped by active rent categories.
+18. Compared city-wise average rent variables across different rent categories.
+19. Studied bathroom-wise average rent metrics based on active furnishing statuses.
+20. Created a multi-variable correlation heatmap for numerical attributes (Beds, Baths, Rent, Area).
+21. Compared average property area footprints across cities based on furnishing status.
+22. Analysed city-wise average rent per square foot parameters across rent categories.
+23. Examined property count distributions across different municipal cities.
+24. Analysed city-wise average rent spreads based on structural furnishing status.
+25. Identified the top 5 most expensive cities based on average macro rental pricing.
+26. Identified the top 5 cheapest property building types based on mean rental outlays.
+27. Identified the top 5 most expensive operational locations based on average rental records.
 
 ## Project Visualisations & Analysis
 
@@ -125,11 +128,6 @@ This visualisation compares average rent per square foot across cities and rent 
 
 The correlation heatmap displays relationships between numerical variables such as bedrooms, bathrooms, property area, rent and rent per square foot. It helps identify positive and negative correlations between these variables.
 
-### 9. Property Type-wise Average Rent
-
-![Property Type-wise Average Rent](visualizations/property_type_wise_average_rent.png)
-
-This chart compares average rental prices across different property types and helps understand how rental costs vary by property category.
 
 ## Key Learnings
 
